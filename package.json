@@ -1,0 +1,25 @@
+{
+  "name": "elevenlabs-sip-refer",
+  "version": "1.0.0",
+  "description": "SIP trunk client with REFER transfer between ElevenLabs AI agents",
+  "type": "module",
+  "scripts": {
+    "setup": "tsx src/setup.ts",
+    "call": "tsx src/index.ts",
+    "call:no-audio": "tsx src/index.ts --no-audio",
+    "test": "tsx src/test-harness.ts",
+    "test:5": "tsx src/test-harness.ts 5",
+    "build": "tsc",
+    "teardown": "tsx src/teardown.ts"
+  },
+  "dependencies": {
+    "dotenv": "^16.4.7",
+    "sdp-transform": "^2.14.2"
+  },
+  "devDependencies": {
+    "@types/node": "^22.10.0",
+    "@types/sdp-transform": "^2.4.9",
+    "tsx": "^4.19.0",
+    "typescript": "^5.7.0"
+  }
+}
