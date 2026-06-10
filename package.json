@@ -14,11 +14,11 @@
   },
   "dependencies": {
     "dotenv": "^16.4.7",
-    "sdp-transform": "^2.14.2"
+    "sdp-transform": "^3.0.0"
   },
   "devDependencies": {
     "@types/node": "^22.10.0",
-    "@types/sdp-transform": "^2.4.9",
+    "@types/sdp-transform": "^3.0.0",
     "tsx": "^4.22.4",
     "typescript": "^5.7.0"
   }
