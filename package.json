@@ -17,7 +17,7 @@
     "sdp-transform": "^2.14.2"
   },
   "devDependencies": {
-    "@types/node": "^22.10.0",
+    "@types/node": "^25.9.2",
     "@types/sdp-transform": "^2.4.9",
     "tsx": "^4.22.4",
     "typescript": "^5.7.0"
